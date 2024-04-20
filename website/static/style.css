@@ -136,7 +136,7 @@ p {
     img {
         width: 100%;
     }
-    p {
+    .lyricscontent p {
         font-size: 0.8rem;
     }
     .lyricscontent {
