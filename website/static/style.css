@@ -4,10 +4,10 @@
 }
 
 body {
+    margin: auto;
     display: block;
     background-color: var(--color-secondary);
     font-family: "Lucida Console", "Courier New", monospace;
-
     overflow-y:visible;
 }
 
@@ -15,8 +15,8 @@ div {
     margin: auto;
 }
 
-P {
-    padding: 5;
+p {
+    font-size: 1.1rem;
 }
 
 .heading {
@@ -35,12 +35,16 @@ P {
     transform-origin: center center;
     border: none;
 
-    font-size: 30;
+    font-size: 2rem;
 }
 
 .content {
     display: flex;
     margin: 50;
+}
+
+.lyricscontent {
+    margin: 80px;
 }
 
 .input_box {
@@ -126,4 +130,16 @@ P {
     opacity: 0;
     transition: 0.5s;
     text-align: center;
+}
+
+@media screen and (max-width: 781px) and (max-width: 840px) {
+    img {
+        width: 100%;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+    .lyricscontent {
+        margin: 40px;
+    }
 }
