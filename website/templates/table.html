@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+    <title>{{table["name"]}}</title>
+  </head>
+  <body style="background-color:{{primary_colour}}">
+    <div class="heading">
+      LYRICS TRANSLATION PROJECT | SORT - <a href="/t/translations">NAME</a> <a href="/t/translations?sort=artist">ARTIST</a>
+      <button onclick="location.href='{{choosen_link}}'", class="logo" style="background-color:{{primary_colour}}">
+        <p style="color:{{primary_colour}}; background-color:{{secondary_colour}}">{{like_hiphop}}</p>
+      </button>
+    </div>
+    <div class="content">
+      <div class="album_box">
+        {% for i in table_len %}
+        <button onclick="location.href='/post/{{list[i]["id"]}}';" name="album_id" class="album_object" style="display:flex; background-image:url(../static/imgs/{{list[i]["cover"]}});">
+          <div class="album_components" style="color:{{primary_colour}}; background-color:{{secondary_colour}}">
+            {{list[i]["name"]}}
+          </div>
+        </button>
+        {% endfor %}
+      </div>
+    </div>
+  </body>
+</html>
