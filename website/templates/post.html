@@ -8,9 +8,9 @@
 </head>
 <body>
     <div class="heading">
-        UPLOAD: {{album["time"][:10]}} | VERSION: {{album["version"]}} 
-        {% if album["version"] != 1 %}
-        <a href="/post/{{album["id"]}}/{{album["version"]-1}}"> PREVIOUS VERSION </a>
+        <a href="/">HOME</a> UPLOAD: {{album["time"][:10]}} | VERSION: {{version}}
+        {% if version != 1 %}
+        <a href="/post/{{album["id"]}}/{{version-1}}"> PREVIOUS VERSION </a>
         {% endif %}
     </div>
     <div class="lyricscontent">

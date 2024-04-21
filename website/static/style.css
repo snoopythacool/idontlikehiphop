@@ -11,6 +11,11 @@ body {
     overflow-y:visible;
 }
 
+a {
+    text-decoration: underline;
+    color: var(--color-primary);
+}
+
 div {
     margin: auto;
 }

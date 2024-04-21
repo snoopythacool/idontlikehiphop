@@ -17,7 +17,8 @@ def post(id:str):
   album = album_dict[id]
 
   return render_template(f"translations/{id}.html", 
-                         album=album)
+                         album=album,
+                         version=album["version"])
 
 @bp.route("/<id>/<version>")
 def postv(id:str, version:str):
@@ -30,7 +31,7 @@ def postv(id:str, version:str):
   album = album_dict[id]
 
   if int(version) < album["version"]:
-    return render_template(f"translations/versions/{id}_v{version}.html", 
+    return render_template(f"translations/{id}_v{version}.html", 
                          album=album,
                          version=int(version))
   else:
