@@ -39,6 +39,8 @@ def table(id:str):
   sort = request.args.get('sort')
   if sort == "artist":
     album_list = sorted(album_list, key=itemgetter('artist'))
+  elif sort == "time":
+    album_list = sorted(album_list, key=itemgetter('time'), reverse=True)
 
   random_colour = choice(COLOUR_SCHEMES)
   
