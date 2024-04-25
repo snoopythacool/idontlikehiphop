@@ -1,13 +1,16 @@
 <html>
   <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
     <title>{{table["name"]}}</title>
   </head>
   <body style="background-color:{{primary_colour}}">
     <div class="heading">
-      LYRICS TRANSLATION PROJECT | SORT BY - <a href="/t/translations">NAME</a> <a href="/t/translations?sort=artist">ARTIST</a> <a href="/t/translations?sort=time">TIME</a>
+      <div class="menubar">
+        LYRICS TRANSLATION PROJECT | SORT BY - <a href="/t/translations">NAME</a> <a href="/t/translations?sort=artist">ARTIST</a> <a href="/t/translations?sort=time">TIME</a>
+      </div>
       <button onclick="location.href='{{choosen_link}}'", class="logo" style="background-color:{{primary_colour}}">
-        <p style="color:{{primary_colour}}; background-color:{{secondary_colour}}; padding:3; font-size:40">{{like_hiphop}}</p>
+        <p style="color:{{primary_colour}}; background-color:{{secondary_colour}}; padding:2px;">{{like_hiphop}}</p>
       </button>
     </div>
     <div class="content">

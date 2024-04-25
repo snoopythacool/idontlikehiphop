@@ -8,10 +8,13 @@
 </head>
 <body>
     <div class="heading">
-        <a href="/">HOME</a> UPLOAD: {{album["time"][:10]}} | VERSION: {{version}}
-        {% if version != 1 %}
-        <a href="/post/{{album["id"]}}/{{version-1}}"> PREVIOUS VERSION </a>
-        {% endif %}
+        <div class="menubar">
+            <a href="/">HOME</a> | UPLOAD: {{album["time"][:10]}} | VERSION: {{version}}
+            {% if version != 1 %}
+            &nbsp;
+            <a href="/post/{{album["id"]}}/{{version-1}}"> PREVIOUS VERSION </a>
+            {% endif %}
+        </div>
     </div>
     <div class="lyricscontent">
         {% block content %}

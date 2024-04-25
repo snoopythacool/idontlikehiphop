@@ -21,13 +21,16 @@ div {
 }
 
 p {
-    font-size: 1.1rem;
+    font-size: 1rem;
+}
+
+.logo p {
+    font-size: 2rem;
 }
 
 .heading {
     display: block;
     margin: 8px;
-    padding: 2px;
 }
 
 .logo {
@@ -40,6 +43,7 @@ p {
     transform-origin: center center;
     border: none;
 
+    padding: 3;
     font-size: 2rem;
 }
 
@@ -75,7 +79,7 @@ p {
 
 .album_object {
     text-decoration: none;
-    height: 200;
+    height: 200px;
     margin: 8px;
     aspect-ratio: 1;
     background-size: cover;
@@ -98,53 +102,56 @@ p {
     }
 }
 
-.album_list_box {
-    max-height: 510px;
-    border: 1px solid;
-    display: flex;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    text-decoration: none;
-    transform-origin: top left;
-}
-
-.album_list_box::-webkit-scrollbar {
-    width: 0;
-}
-
-.album_list_object {
-    text-decoration: none;
-    height: 500;
-    aspect-ratio: 1;
-    background-size: cover;
-    padding: 10;
-    margin-left: 20;
-    transition: 0.5s;
-
-	cursor: pointer;
-
-    &:hover{
-        transform: translateY(-20px);
-        .album_components {
-            opacity: 1;
-        }
-    }
-}
-
 .album_components {
     opacity: 0;
     transition: 0.5s;
     text-align: center;
 }
 
-@media screen and (max-width: 781px) and (max-width: 840px) {
+@media (max-width: 1000px) and (max-width: 1000px) {
     img {
         width: 100%;
+    }
+    .logo {
+        font-size: 1rem;
+    }
+    .menubar {
+        font-size: 0.8rem;
     }
     .lyricscontent p {
         font-size: 0.8rem;
     }
     .lyricscontent {
         margin: 40px;
+    }
+    .content {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .album_object {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+        margin: 0;
+        &:hover{
+            height: 150px;
+            margin: 2px;
+    
+            .album_components {
+                opacity: 1;
+            }
+        }
+    }
+    .album_box {
+        display: grid;
+        place-items: center;
+        width: 100%;
+        
+        grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+        text-decoration: none;
+        gap: 0;
+    
+        overflow-y: auto;
+        overflow-x: auto;
     }
 }
