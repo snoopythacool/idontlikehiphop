@@ -134,8 +134,7 @@ p {
         aspect-ratio: 1;
         margin: 0;
         &:hover{
-            height: 150px;
-            margin: 2px;
+            height: auto;
     
             .album_components {
                 opacity: 1;
