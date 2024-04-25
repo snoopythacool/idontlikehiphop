@@ -49,7 +49,7 @@ p {
 
 .content {
     display: flex;
-    margin: 50;
+    margin: 80;
 }
 
 .lyricscontent {
@@ -135,6 +135,7 @@ p {
         margin: 0;
         &:hover{
             height: auto;
+            margin: 0;
     
             .album_components {
                 opacity: 1;
