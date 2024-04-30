@@ -22,3 +22,11 @@
     </div>
 </body>
 </html>
+
+<script type="text/javascript">
+    function goToTrack(clickedText)
+    {
+        var offset = $('*:contains(\'${clickedText}\')').offset().top;
+        window.scrollTo(0,offset);
+    }
+</script>
