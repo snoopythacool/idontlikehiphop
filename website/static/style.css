@@ -127,6 +127,7 @@ p {
     .content {
         margin-left: 0;
         margin-right: 0;
+        margin-bottom: auto;
     }
     .album_object {
         width: 100%;
