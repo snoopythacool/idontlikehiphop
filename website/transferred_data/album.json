@@ -5,4 +5,5 @@
 "itsusvol1": {"id": "itsusvol1", "name": "It's Us Vol.1", "artist": "Concrete Boys", "cover": "itsusvol1.jpeg", "time": "2024-04-21 19:06:54.697129", "version": 3},
 "pygmalion": {"id": "pygmalion", "name": "Pygmalion", "artist": "Slowdive", "cover": "pygmalion.jpeg", "time": "2024-04-25 20:22:47.916460", "version": 1},
 "justforaday": {"id": "justforaday", "name": "Just For A Day", "artist": "Slowdive", "cover": "justforaday.jpeg", "time": "2024-04-25 20:33:11.097471", "version": 1},
-"trailerpark": {"id": "trailerpark", "name": "Trailer Park", "artist": "Beth Orton", "cover": "trailerpark.jpeg", "time": "2024-04-30 23:05:03.938740", "version": 2}}
+"trailerpark": {"id": "trailerpark", "name": "Trailer Park", "artist": "Beth Orton", "cover": "trailerpark.jpeg", "time": "2024-04-30 23:05:03.938740", "version": 2},
+"parklife": {"id": "parklife", "name": "Parklife", "artist": "Blur", "cover": "parklife.jpeg", "time": "2024-05-06 21:02:21.256083", "version": 1, "primary": "#F2D027", "secondary": "#262223"}}
