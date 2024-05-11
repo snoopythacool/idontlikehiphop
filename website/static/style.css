@@ -106,6 +106,10 @@ p {
     opacity: 0;
     transition: 0.5s;
     text-align: center;
+    background-color: white;
+    color: black;
+    padding: 2;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 @media (max-width: 1000px) and (max-width: 1000px) {

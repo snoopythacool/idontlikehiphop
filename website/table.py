@@ -15,7 +15,7 @@ COLOUR_SCHEMES = [
   ["#D9D5A3", "#261B24", "/post/souvlaki"],
   ["#E9F2EA", "#18594D", "/post/pygmalion"],
   ["#D96B2B", "#40211E", "/post/justforaday"],
-  ["#F2F2F2", "#A67C6D", "/post/trailerpark"]
+  ["#F2F2F2", "#A67C6D", "/post/trailerpark"],
 ]
 
 @bp.route("/<id>")
