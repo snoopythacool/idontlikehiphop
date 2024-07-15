@@ -6,4 +6,5 @@
 "pygmalion": {"id": "pygmalion", "name": "Pygmalion", "artist": "Slowdive", "cover": "pygmalion.jpeg", "time": "2024-04-25 20:22:47.916460", "version": 1},
 "justforaday": {"id": "justforaday", "name": "Just For A Day", "artist": "Slowdive", "cover": "justforaday.jpeg", "time": "2024-04-25 20:33:11.097471", "version": 1},
 "trailerpark": {"id": "trailerpark", "name": "Trailer Park", "artist": "Beth Orton", "cover": "trailerpark.jpeg", "time": "2024-04-30 23:05:03.938740", "version": 2},
-"parklife": {"id": "parklife", "name": "Parklife", "artist": "Blur", "cover": "parklife.jpeg", "time": "2024-05-06 21:02:21.256083", "version": 2, "primary": "#F2D027", "secondary": "#262223"}}
+"parklife": {"id": "parklife", "name": "Parklife", "artist": "Blur", "cover": "parklife.jpeg", "time": "2024-05-06 21:02:21.256083", "version": 2, "primary": "#F2D027", "secondary": "#262223"},
+"punisher": {"id": "punisher", "name": "Punisher", "artist": "Phoebe Bridgers", "cover": "punisher.jpeg", "time": "2024-07-16 00:31:21.158699", "version": 1, "primary": "#BF212E", "secondary": "#730D28"}}

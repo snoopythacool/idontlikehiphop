@@ -160,3 +160,7 @@ p {
         overflow-x: auto;
     }
 }
+
+.paragraph {
+    line-height: 1.4;
+}
