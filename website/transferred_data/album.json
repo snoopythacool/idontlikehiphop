@@ -9,4 +9,5 @@
 "parklife": {"id": "parklife", "name": "Parklife", "artist": "Blur", "cover": "parklife.jpeg", "time": "2024-05-06 21:02:21.256083", "version": 2, "primary": "#F2D027", "secondary": "#262223"},
 "punisher": {"id": "punisher", "name": "Punisher", "artist": "Phoebe Bridgers", "cover": "punisher.jpeg", "time": "2024-07-30 19:32:54.072885", "version": 1, "primary": "#BF212E", "secondary": "#730D28"},
 "thebirthdayparty": {"id": "thebirthdayparty", "name": "The Birthday Party", "artist": "The Birthday Party", "cover": "thebirthdayparty.jpeg", "time": "2025-01-02 00:44:39.421912", "version": 2, "primary": "#B9B9B9", "secondary": "#0F0F0F"},
-"lostwisdom": {"id": "lostwisdom", "name": "Lost Wisdom", "artist": "Mount Eerie", "cover": "lostwisdom.jpeg", "time": "2025-01-02 00:26:58.679815", "version": 1, "primary": "#F2F2F2", "secondary": "#595846"}}
+"lostwisdom": {"id": "lostwisdom", "name": "Lost Wisdom", "artist": "Mount Eerie", "cover": "lostwisdom.jpeg", "time": "2025-01-02 00:26:58.679815", "version": 1, "primary": "#F2F2F2", "secondary": "#595846"},
+"makeoutcreek": {"id": "makeoutcreek", "name": "Bury Me at Makeout Creek", "artist": "Mitski", "cover": "makeoutcreek.jpeg", "time": "2025-01-02 18:40:29.675594", "version": 1, "primary": "#2C3F59", "secondary": "#7E7B8C"}}
